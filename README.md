@@ -15,7 +15,7 @@
 </p> <br>
 
 
-### Gradle 
+###Gradle 
 Add below codes to your **root** `build.gradle` file (not your module build.gradle file).
 ```Gradle
 allprojects {
@@ -29,16 +29,16 @@ And add a dependency code to your **module**'s `build.gradle` file.
 dependencies {
     implementation 'com.github.Huthefa:UDFBrids:1.0.0'
 }
+```
+##Usage
 
-## Usage
-
-###  Step 1
+###Step 1
 
     fun myDataState () = performNetworkCallOperation {
         getDateApi().convertFromGDateTOH("8/2016")
     }
 
-###  Step 2
+###Step 2
 private fun observerMyState(dataState: DataState<MyData>) {
     myDataState()
         .onLoading { showLoadingDialog() }
@@ -57,7 +57,7 @@ private fun observerMyState(dataState: DataState<MyData>) {
 }
 
 
-# License
+#License
 ```xml
 Copyright 2021 taymiyyah (Huthefa ALfararjeh)
 
