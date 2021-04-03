@@ -15,7 +15,7 @@ UDFBrids: A lightweight UDF observer .
 </p> <br>
 
 
-###Gradle 
+### Gradle 
 Add below codes to your **root** `build.gradle` file (not your module build.gradle file).
 ```Gradle
 allprojects {
@@ -30,9 +30,9 @@ dependencies {
     implementation 'com.github.Huthefa:UDFBrids:1.0.0'
 }
 ```
-##Usage
+## Usage
 
-###Step 1
+### Step 1
 ```Step
     fun myDataState () = performNetworkCallOperation {
         getDateApi().convertFromGDateTOH("8/2016") //    suspend fun convertFromGDateTOH(   @Path("date") date: String)
@@ -40,7 +40,7 @@ dependencies {
     }
 ```
 
-###Step 2
+### Step 2
 ```Step
 private fun observerMyState(dataState: DataState<MyData>) {
     myDataState() // should come from your viewmodel
@@ -60,7 +60,7 @@ private fun observerMyState(dataState: DataState<MyData>) {
 }
 ```
 
-#License
+# License
 ```xml
 Copyright 2021 taymiyyah (Huthefa ALfararjeh)
 
