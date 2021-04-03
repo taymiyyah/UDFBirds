@@ -32,7 +32,7 @@ dependencies {
 ```
 ## Usage
 
-### Step 1
+### Step 1 : this code should in viewmodel
 ```Step
     fun myDataState () = performNetworkCallOperation {
         getDateApi().convertFromGDateTOH("8/2016") //    suspend fun convertFromGDateTOH(   @Path("date") date: String)
@@ -40,7 +40,7 @@ dependencies {
     }
 ```
 
-### Step 2
+### Step 2 : this code should in fragment
 ```Step
 private fun observerMyState(dataState: DataState<MyData>) {
     myDataState() // should come from your viewmodel
