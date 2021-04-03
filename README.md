@@ -1,7 +1,7 @@
 <h1 align="center">UDFBrids</h1></br>
 
 <p align="center">
-:UDFBrids: A lightweight UDF obserber .
+UDFBrids: A lightweight UDF observer .
 </p>
 </br>
 <p align="center">
@@ -33,14 +33,17 @@ dependencies {
 ##Usage
 
 ###Step 1
-
+```Step
     fun myDataState () = performNetworkCallOperation {
-        getDateApi().convertFromGDateTOH("8/2016")
+        getDateApi().convertFromGDateTOH("8/2016") //    suspend fun convertFromGDateTOH(   @Path("date") date: String)
+    ): Response<HashMap<Any,Any>>
     }
+```
 
 ###Step 2
+```Step
 private fun observerMyState(dataState: DataState<MyData>) {
-    myDataState()
+    myDataState() // should come from your viewmodel
         .onLoading { showLoadingDialog() }
         .onError {
           //  hideLoadingDialog()
@@ -55,7 +58,7 @@ private fun observerMyState(dataState: DataState<MyData>) {
         //    hideLoadingDialog() 
         }
 }
-
+```
 
 #License
 ```xml
