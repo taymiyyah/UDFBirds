@@ -6,7 +6,7 @@ UDFBrids: A lightweight UDF observer .
 </br>
 <p align="center">
   <a href="https://github.com/taymiyyah"><img alt="License" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://medium.com/@hfararjeh98/simplify-state-manamget-by-ufd-4fa67a9754c8"><img alt="License" src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/></a>
+  <a href="https://medium.com/@hfararjeh98/simplify-state-manamget-by-ufd-4fa67a9754c8"><img alt="License" src="https://hfararjeh98.medium.com/replace-ugly-try-catch-with-beautytries-e88c47c60086"/></a>
   <a href="mailto:hfararjeh98@gmail.com"><img alt="License" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
  <br>
